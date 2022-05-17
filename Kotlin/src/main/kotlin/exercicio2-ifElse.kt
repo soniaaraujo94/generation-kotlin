@@ -9,7 +9,7 @@ fun main(){
     print("Digite o terceiro número: ")
     val num3 = readln().toInt()
 
-    val crescente = listOf(num1,num2, num3 )
+    val crescente = listOf(num1,num2, num3)
 
     print("Ordem: ${crescente.sorted()}")
 
