@@ -1,16 +1,19 @@
+import kotlin.math.pow
+
 fun main(){
 
-    println("Calculadora de area do círculo")
+    println("Calculadora de àrea do círculo")
 
-    print("Digite valor o diâmetro: ")
-    var dia = readLine()!!.toDouble()
+    print("Digite o valor do diâmetro: ")
+    val dia = readLine()!!.toDouble()
 
-    var r = dia / 2
+    val r = dia / 2
+    val pi = 3.14
 
-    var p = 2 * 3.14 * r
-    var a = 3.14 * (r * r)
+    val p = 2 * pi * r
+    val a = pi * r.pow(2)
 
-    println("Perimêtro do circulo: $p")
+    println("Perimêtro do circulo: $p}")
     println("Area do circulo: $a")
 
 }
