@@ -1,4 +1,4 @@
-fun main() {
+/*fun main() {
     println("---- CONTROLE DE ESTOQUE ----")
     println("O que você deseja fazer?: " +
                 "\n1 - Adicionar produto" +
@@ -145,4 +145,4 @@ fun main() {
         }
     }while (opcao != 5)
 }
-
+*/
