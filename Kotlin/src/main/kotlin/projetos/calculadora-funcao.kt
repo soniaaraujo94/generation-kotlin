@@ -1,3 +1,5 @@
+package projetos
+
 fun main() {
 
     println("Insira um valor: ")

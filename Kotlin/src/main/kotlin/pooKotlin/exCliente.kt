@@ -9,11 +9,11 @@ com os atributos: nome (String), endereço (String), telefone (String), listaDeC
 A classe precisará de métodos para adicionar, remover e listar os itens do atributo
 listaDeCompras. Crie um método para verificar o nome ao inicializar a classe e,
 caso esteja vazio, jogue uma exceção. Ao instanciar a classe cliente na
-função main(), não esquecer de colocar dentro de um bloco try catch.
+função lacosRepeticao.projetos.main(), não esquecer de colocar dentro de um bloco try catch.
  */
 
     try {
-        val cliente = Cliente(
+        val cliente = classCliente(
             "Rodrigo", "Rua Santa 324", "110000-0000"
         )
 

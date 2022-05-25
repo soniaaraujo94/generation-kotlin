@@ -1,3 +1,5 @@
+package projetos
+
 fun main () {
 /*
     println("Informe o valor da compra: ")

@@ -1,4 +1,6 @@
-class Funcionario (
+package pooKotlin
+
+class classFuncionario (
     var nome: String,
     var idade: Int,
     var empresa: String,

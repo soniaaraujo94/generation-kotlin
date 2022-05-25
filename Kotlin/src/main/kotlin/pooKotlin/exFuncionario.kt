@@ -1,6 +1,8 @@
+import pooKotlin.classFuncionario
+
 fun main(){
 
-    val func = Funcionario (
+    val func = classFuncionario (
         "Rodolfredo",
         27,
         "TEKMOB",

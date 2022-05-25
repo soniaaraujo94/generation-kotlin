@@ -1,3 +1,5 @@
+package projetos
+
 import java.util.Scanner
 
 fun main () {

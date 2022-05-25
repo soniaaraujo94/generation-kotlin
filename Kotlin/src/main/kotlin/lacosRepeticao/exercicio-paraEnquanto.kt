@@ -1,3 +1,5 @@
+package lacosRepeticao
+
 import java.util.Scanner
 
 fun main(){

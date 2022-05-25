@@ -1,6 +1,6 @@
-/*import java.util.Scanner
+package lacosRepeticao/*import java.util.Scanner
 
-fun main(){
+fun lacosRepeticao.projetos.main(){
 
     val a = Scanner(System.`in`)
     var calc = 0

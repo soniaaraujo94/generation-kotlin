@@ -1,4 +1,4 @@
-class Cliente(private var nome: String) {
+class classCliente(private var nome: String) {
 
     var endereco = ""
     var telefone = ""

@@ -1,4 +1,4 @@
-/*fun main() {
+package projetos/*fun lacosRepeticao.projetos.main() {
     println("---- CONTROLE DE ESTOQUE ----")
     println("O que você deseja fazer?: " +
                 "\n1 - Adicionar produto" +
@@ -37,7 +37,7 @@
 
                 println()
 
-                main()
+                lacosRepeticao.projetos.main()
             }
 
             2 -> {
@@ -61,7 +61,7 @@
                     println("Não existe produtos com o nome $deletar")
 
                 }
-                main()
+                lacosRepeticao.projetos.main()
             }
 
             3 -> {
@@ -130,7 +130,7 @@
 
                 }
 
-                main()
+                lacosRepeticao.projetos.main()
             }
 
             4 -> {
@@ -140,7 +140,7 @@
                             "\nValor do Produto: R$$valorProduto " +
                             "\nQTD. em estoque: $qtdProduto")
 
-                main()
+                lacosRepeticao.projetos.main()
             }
         }
     }while (opcao != 5)

@@ -1,3 +1,5 @@
+package projetos
+
 import kotlin.math.pow
 
 fun main(){
