@@ -16,7 +16,6 @@ class classCliente(private var nome: String) {
         val produto = readln()
 
         if (produto != ""){
-
             listaDeCompras.add(produto)
 
         }else{
