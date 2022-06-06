@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0E1A"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/background2"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/android_large___10__3_" />
+
+    <Button
+        android:id="@+id/jogar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#930000"
+        android:elevation="0dp"
+        android:text="@string/jogar12"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgD20"
+        app:layout_constraintStart_toStartOf="@+id/imgD20"
+        app:layout_constraintTop_toBottomOf="@+id/textDado" />
+
+    <TextView
+        android:id="@+id/textDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgD20"
+        app:layout_constraintStart_toStartOf="@+id/imgD20"
+        app:layout_constraintTop_toBottomOf="@+id/imgD20"
+        tools:text="1" />
+
+    <ImageView
+        android:id="@+id/textD20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/textdado20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104"
+        app:srcCompat="@drawable/frame__6_" />
+
+    <ImageView
+        android:id="@+id/imgD20"
+        android:layout_width="177dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/imagedado20"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toEndOf="@+id/textD20"
+        app:layout_constraintStart_toStartOf="@+id/textD20"
+        app:layout_constraintTop_toBottomOf="@+id/textD20"
+        app:srcCompat="@drawable/group_9"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

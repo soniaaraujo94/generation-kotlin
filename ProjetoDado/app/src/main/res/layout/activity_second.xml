@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0E1A"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/background2"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/android_large___10__3_" />
+
+    <ImageView
+        android:id="@+id/textD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/textdado6"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/group_11" />
+
+    <ImageView
+        android:id="@+id/imgD6"
+        android:layout_width="177dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/lado6"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintEnd_toEndOf="@+id/textD6"
+        app:layout_constraintStart_toStartOf="@+id/textD6"
+        app:layout_constraintTop_toBottomOf="@+id/textD6"
+        app:srcCompat="@drawable/group_23" />
+
+    <Button
+        android:id="@+id/jogar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#930000"
+        android:elevation="0dp"
+        android:text="Jogar"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/imgD6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgD6"
+        app:layout_constraintTop_toBottomOf="@+id/textDado" />
+
+    <TextView
+        android:id="@+id/textDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgD6"
+        app:layout_constraintStart_toStartOf="@+id/imgD6"
+        app:layout_constraintTop_toBottomOf="@+id/imgD6"
+        tools:text="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

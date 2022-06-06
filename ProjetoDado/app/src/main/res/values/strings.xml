@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projeto Dado</string>
+    <string name="jogar">Jogar</string>
+    <string name="_12_lados">12 Lados</string>
+    <string name="todo">TODO</string>
+    <string name="twentydice">twentydice</string>
+    <string name="logo">logo</string>
+    <string name="choseweapon">choseweapon</string>
+    <string name="sixdice">sixdice</string>
+    <string name="chose_your_weapon">Chose your weapon</string>
+    <string name="twelvedice">twelvedice</string>
+    <string name="background">background</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lado6">Lado6</string>
+    <string name="textdado6">textDado6</string>
+    <string name="background2">background2</string>
+    <string name="jogar12">Jogar</string>
+    <string name="textdado12">textDado12</string>
+    <string name="imagedado12">imagedado12</string>
+    <string name="textdado20">textdado20</string>
+    <string name="imagedado20">imagedado20</string>
+</resources>
