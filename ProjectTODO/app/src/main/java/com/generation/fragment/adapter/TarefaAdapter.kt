@@ -11,7 +11,7 @@ class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
 
     var listTarefa = emptyList<Tarefa>()
 
-    class TarefaViewHolder (val binding: CardLayoutBinding): RecyclerView.ViewHolder(binding.root){    }
+    class TarefaViewHolder (val binding: CardLayoutBinding): RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TarefaViewHolder {
        return TarefaViewHolder(CardLayoutBinding.inflate
