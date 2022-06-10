@@ -5,11 +5,21 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3485f472-7719-43cc-a474-6a1be72a9d5a" name="Changes" comment="" />
+    <list default="true" id="3485f472-7719-43cc-a474-6a1be72a9d5a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/FormFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/FormFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/ListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/adapter/TarefaAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/adapter/TarefaAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/model/Tarefa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectTODO/app/src/main/java/com/generation/fragment/model/Tarefa.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2AD0snE6AnrDLlorZMWHGhEv5n3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectTODO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
