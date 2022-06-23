@@ -4,10 +4,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.generation.fragment.MainViewModel
 import com.generation.fragment.databinding.CardLayoutBinding
 import com.generation.fragment.model.Tarefa
 
-class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
+class TarefaAdapter (
+    val taskClicklListener: TaskClicklListener,
+    val mainViewModel: MainViewModel
+        ) : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
 
     var listTarefa = emptyList<Tarefa>()
 
@@ -28,6 +32,10 @@ class TarefaAdapter : RecyclerView.Adapter<TarefaAdapter.TarefaViewHolder>() {
         holder.binding.textData.text = tarefa.data
         holder.binding.switchndamento.isChecked = tarefa.status
         holder.binding.textCategoria.text = tarefa.categoria.descricao
+
+        holder.itemView.setOnClickListener{
+            taskClicklListener.onTaskClickListener(tarefa)
+        }
 
     }
 
